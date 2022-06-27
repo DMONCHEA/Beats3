@@ -1,0 +1,13 @@
+.product-slider__arrow--direction--prev {
+  display: block;
+  position: absolute;
+  top: 234px;
+  left: -60px;
+}
+
+.product-slider__arrow--direction--next {
+  display: block;
+  position: absolute;
+  top: 234px;
+  right: -60px;
+}

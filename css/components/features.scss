@@ -1,0 +1,12 @@
+.features {
+  display: flex;
+  margin-bottom: rem(15px);
+}
+
+.features__item {
+  margin-right: rem(-27px);
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

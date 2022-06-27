@@ -1,0 +1,35 @@
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 252px;
+  margin-bottom: 38px;
+  margin-top: 18px;
+}
+
+.socials__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.socials__item--icon--tg {
+  background-image: url(../../img/F_tg.png);
+}
+
+.socials__item--icon--vk {
+  background-image: url(../../img/F_vk.png);
+}
+
+.socials__item--icon--fb {
+  background-image: url(../../img/F_face.png);
+}
+
+.socials__item--icon--in {
+  background-image: url(../../img/F_in.png);
+}

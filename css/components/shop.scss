@@ -1,0 +1,154 @@
+.shop-section {
+  background: #F5F5F5;
+}
+
+.shops__display {
+  background: #F8FAF9;
+  padding: rem(53px) rem(45px) rem(34px);
+  overflow: hidden;
+  position: relative;
+  margin-bottom: rem(25px);
+
+  &::before {
+    content: "";
+    display: block;
+    width: rem(90px);
+    height: rem(90px);
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: rem(-65px);
+  }
+}
+
+.shops__switcer {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.shops__display-inner {
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.shops__avatar {
+  width: rem(452px);
+  height: rem(452px);
+
+  @media (max-width: 768px) {
+    width: 21.125rem;
+    height: 20.25rem;
+  }
+}
+
+.shops__avatar-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.shops__content {
+  flex: 1;
+  margin-left: rem(30px);
+}
+
+.shops__title {
+  font-size: rem(36px);
+  font-weight: bold;
+  margin-top: rem(65px);
+  margin-bottom: 2.3125rem;
+  text-transform: uppercase;
+  line-height: rem(30px);
+
+  @media (max-width: 768px) {
+    font-size: rem(29px);
+    margin-bottom: rem(14px);
+  }
+}
+
+.shops__text {
+  color: #666;
+  margin-bottom: rem(36px);
+  width: 85%;
+
+  @media (max-width: 768px) {
+    margin-left: rem(10px);
+    font-size: rem(17px);
+    width: 41.375rem;
+  }
+
+  @media (max-width: 480px) {
+    display: none;
+  }
+}
+
+.offer__features {
+  display: flex;
+  margin-bottom: 24px;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    font-size: rem(16px);
+    margin-left: 16px;
+  }
+}
+
+.offer__down {
+  display: flex;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+}
+
+.offer__feature, .offer__down-feature {
+  vertical-align: top;
+  width: rem(155px);
+  height: rem(45px);
+  margin-right: rem(25px);
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  @media (max-width: 768px) {
+    margin-right: rem(63px);
+  }
+}
+
+.offer__feature-one {
+  color: #666;
+
+  &--r {
+    @media (max-width: 768px) {
+      margin-left: rem(-70px);
+    }
+  }
+}
+
+.offer__feature-two {
+  font-weight: bold;
+
+  @media (max-width: 768px) {
+    margin-left: rem(-12px);
+  }
+}
+
+.shops__price {
+  font-size: rem(36px);
+  line-height: rem(50px);
+
+  @media (max-width: 768px) {
+    font-size: rem(41px);
+    width: 11rem;
+  }
+}
+

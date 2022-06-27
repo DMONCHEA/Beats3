@@ -1,0 +1,18 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: rem(45px);
+}
+
+@media tablets {
+  .phone-number.header__phone-number {
+    display: none;
+  }
+}

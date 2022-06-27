@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: rem(45px);
+
+}
+
+.phone-number.header__phone-number {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+

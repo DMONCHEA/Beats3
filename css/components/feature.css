@@ -1,0 +1,21 @@
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: rem(200px);
+}
+
+.feature__icon {
+  width: rem(45px);
+  margin-right: rem(7px);
+}
+
+.feature__img {
+  max-width: 107%;
+  max-height: 88%;
+}
+
+.feature__text {
+  font-size: rem(16px);
+  width: 50%;
+}

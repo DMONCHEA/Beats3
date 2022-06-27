@@ -1,0 +1,124 @@
+.shop-section {
+  background: #F5F5F5;
+}
+
+.shops__display {
+  background: #F8FAF9;
+  padding: rem(53px) rem(45px) rem(34px);
+  overflow: hidden;
+  position: relative;
+  margin-bottom: rem(25px);
+}
+.shops__display::before {
+  content: "";
+  display: block;
+  width: rem(90px);
+  height: rem(90px);
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: rem(-65px);
+}
+
+.shops__switcer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.shops__display-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .shops__display-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.shops__avatar {
+  width: rem(452px);
+  height: rem(452px);
+}
+@media (max-width: 768px) {
+  .shops__avatar {
+    width: rem(130px);
+    height: rem(132px);
+  }
+}
+
+.shops__avatar-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.shops__content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: rem(30px);
+}
+
+.shops__title {
+  font-size: rem(36px);
+  font-weight: bold;
+  margin-top: rem(65px);
+  margin-bottom: 2.3125rem;
+  text-transform: uppercase;
+  line-height: rem(30px);
+}
+
+.shops__text {
+  color: #666;
+  margin-bottom: rem(36px);
+  width: 85%;
+}
+
+.offer__features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.offer__down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offer__feature, .offer__down-feature {
+  vertical-align: top;
+  width: rem(155px);
+  height: rem(45px);
+  margin-right: rem(25px);
+}
+
+.offer__feature-one {
+  color: #666;
+}
+
+.offer__feature-two {
+  font-weight: bold;
+}
+
+.shops__price {
+  font-size: rem(36px);
+  line-height: rem(50px);
+}
